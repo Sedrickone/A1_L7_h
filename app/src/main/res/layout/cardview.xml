@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@color/cardview_dark_background">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/note_image"
+                android:src="@drawable/apple"
+                android:layout_margin="4dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/note_image"
+                android:layout_marginLeft="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="MacBook Pro"
+                    android:textSize="@dimen/size_font_header"
+                    android:textColor="#fff200"
+                    android:gravity="center"
+                    android:id="@+id/note_header"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/note_text"
+                    android:gravity="center"
+                    android:textColor="#e1e1e1"
+                    android:textSize="@dimen/size_font_text"
+                    android:text="Скоро заработаю денег и обязательно куплю MacBook Pro 15 Retina"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

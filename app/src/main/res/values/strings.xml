@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">A1_L7_h</string>
+    <string name="add_layout_text_lbl">Дополнительный текст</string>
+    <string name="add_layout_btn_ok">OK</string>
+    <string name="add_layout_btn_cancel">Cancel</string>
+    <string name="add_layout_header_lbl">Заголовок</string>
+</resources>
